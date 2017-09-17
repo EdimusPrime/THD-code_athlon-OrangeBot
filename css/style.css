@@ -19,6 +19,7 @@ p{
 	font-size: 1.7rem;
 }
 
+
 .header{
 	display: flex;
 	margin-bottom: 1rem;
@@ -49,7 +50,7 @@ img{
 .tbot_monitoring{
 	border-top: .3rem solid #C8C6C6;
 	/*display: flex;*/
-	padding-top: 2.5rem;
+	padding-top: 7rem;
 
 }
 
@@ -107,4 +108,21 @@ img{
 
 .log_bar{
 	justify-content: space-around;
+}
+
+@media (max-width: 992px){
+
+	.negative{
+		margin: auto;
+		width: 60vw;
+		height: 50vh;
+	}
+
+	.log_box{
+		margin: auto;
+		width: 60vw;
+		height: 50vh;
+	}
+
+
 }

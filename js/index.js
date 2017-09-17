@@ -14,11 +14,13 @@ twttr.widgets.createTimeline(
 // PULLS RANDOM TICKET NUMBERS,NAMES, UPDATED DATES & STATUS 
 // TO POPULATE FICTIONAL ACTIVITY LOG
 
+
+
 $.ajax({
-  url: 'https://randomuser.me/api/?results=25',
+  url: 'https://randomuser.me/api/?results=45',
   dataType: 'json',
   success: function(data) {
-    console.log(data);
+    // console.log(data);
 
     for (var i=0; i<data.results.length; i++){
 
@@ -32,13 +34,14 @@ $.ajax({
 			status="closed"
 			// $(".status").css("color", "red")
 
+
 		} else {
 			status="open"
 			// $(".status").css("color", "green")	
 		}
 
 		if (ticket == null){
-			var ticket = Math.floor(Math.random() * 900000000000);
+			var ticket = Math.floor(Math.random() * 9000000000);
 		}
 
 
@@ -50,21 +53,11 @@ $.ajax({
   			);
 
 
-
-  // 		function statusCheck(){
-  // 			event.preventDefault();
-  // 		if (status==="closed"){
-		// 	$(".ticket").css("text-decoration", "line-through");
-		// } else {
-		// 	$(".ticket").css("text-decoration", "none");
-		// }
-  //   }
     }	
-statusCheck;
 
   }
 });
 
-console.log(data);
+
 
 });
