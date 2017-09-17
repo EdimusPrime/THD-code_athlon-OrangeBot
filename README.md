@@ -26,4 +26,4 @@ Botwiki: https://botwiki.org/tutorials/twitterbots/
 
 ## ACKNOWLEDGEMENTS
 
-[Jack Wolfard](https://github.com/JackWolfard) and [Maximillian Naza](https://github.com/2Clutch)
+[Jack Wolfard](https://github.com/JackWolfard) and [Maximillian Naza](https://github.com/2Clutch) for their work on the Twitterbot coding
